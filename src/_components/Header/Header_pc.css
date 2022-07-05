@@ -1,0 +1,31 @@
+.header-pc {
+    height: 56px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    background-color: white;
+  }
+  .header-logo{
+    width: 15%;
+  }
+  .header-logo img {
+    width: 100%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto;
+    padding-left: 10px;
+    float: left;
+    vertical-align: middle;
+  }
+  .check {
+    width: 15%;
+    padding-top: 1%;
+    padding-left: 2%;
+    float: left;
+  }
+  .searchbox {
+    width: 40%;
+    padding-top: 1%;
+    padding-left: 2%;
+    float: left;
+  }

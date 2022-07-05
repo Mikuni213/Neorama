@@ -1,0 +1,180 @@
+.OutlineBasicBox{
+    position: relative;
+    border: 1px solid;
+    border-radius: 0px;
+    border-color: #dcdcdc;
+    background-color: #f5f5f5;
+    width: 200px;
+    height: 306px;
+    padding: 0px;
+}
+.videotitle{
+    position: absolute;
+    border-radius: 0%;
+    border-color: #dcdcdc;
+    width: 140px;
+    height: 17px;
+    top: 112px;
+    left: 4px;
+}
+.RankLetter{
+    text-align: left;
+    opacity: 1;
+    margin-top: 4px;
+    color:#696969;
+    width: 180px;
+    height: 16px;
+    font-size: 16px;
+    font-weight:bolder;
+}
+.date{
+    position: absolute;
+    border-radius: 0%;
+    width: 48px;
+    height: 14px;
+    top: 138px;
+    left: 4px;
+  
+}
+.date p{
+    text-align: left;
+    margin-top:0px;
+    color:#808080;
+    width: 48px;
+    height: 16px;
+    font-size: 8px;
+    font-weight:bolder;
+}
+.user{
+    position: absolute;
+    border-radius: 0%;
+    width: 48px;
+    height: 14px;
+    top: 150px;
+    left: 4px;
+  
+}
+.user p{
+    text-align: left;
+    margin-top:0px;
+    color:#696969;
+    width: 48px;
+    height: 16px;
+    font-size: 16px;
+    font-weight:bolder;
+}
+.tagsports{
+    border: 1px solid;
+    border-color:#c0c0c0;
+    background-color: #afeeee;
+    border-radius: 12px;
+    width:fit-content;
+    height: fit-content;
+    margin:1pt;
+  
+}
+.tagsports p{
+    text-align: center;
+    margin:1px;
+    margin-left:3px;
+    margin-right:3px;
+    color:#696969;
+    height: fit-content;
+    width:fit-content;
+    font-size: 10px;
+    font-weight:bolder;
+}
+.tagteam{
+    border: 1px solid;
+    border-color:#c0c0c0;
+    background-color:lightpink;
+    border-radius: 12px;
+    width:fit-content;
+    height: fit-content;
+    margin:1pt;
+  
+}
+.tagteam p{
+    text-align: center;
+    margin:1px;
+    margin-left:3px;
+    margin-right:3px;
+    color:#696969;
+    height: fit-content;
+    width:fit-content;
+    font-size: 10px;
+    font-weight:bolder;
+}
+.tag{
+    border: 1px solid;
+    border-color:#c0c0c0;
+    background-color: #ffffff;
+    border-radius: 12px;
+    width:fit-content;
+    height: fit-content;
+    margin:1pt;
+  
+}
+.tag p{
+    text-align: center;
+    margin:1px;
+    margin-left:3px;
+    margin-right:3px;
+    color:#696969;
+    height: fit-content;
+    width:fit-content;
+    font-size: 10px;
+    font-weight:bolder;
+}
+.taglist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: absolute;
+    width:94%;
+    height:48px;
+    top:170px;
+    margin:4px;
+}
+.explanation{
+    position: absolute;
+    border-radius: 0%;
+    border-color: #000000;
+    width: 92%;
+    height: 74px;
+    bottom: 5px;
+    left: 3px;
+    overflow-wrap: normal;
+}
+.explanation p{
+    text-align: break-word;
+    margin: 2px;
+    color:black;
+    width: 100%;
+    height: 24px;
+    font-size: 10px;
+    font-weight:bolder; 
+}
+
+.ImageBox{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #000000;
+    width: 192px;
+    height: 108px;
+    top: 3px;
+    right: 3px;
+}
+.ImageBox img{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #000000;
+    width: 192px;
+    height: 108px;
+    top: 0px;
+    right: 0px;
+    object-fit: contain;
+    opacity: 1;
+}
