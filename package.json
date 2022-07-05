@@ -1,6 +1,5 @@
 {
-  "name": "nekohand_test",
-  "homepage": "https://syuwa-oisi.github.io/nekohand_test",
+  "name": "neorama",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,9 +24,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "copy C:\\Users\\yuuki\\nekohand_test\\build\\index.html C:\\Users\\yuuki\\nekohand_test\\build\\404.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
